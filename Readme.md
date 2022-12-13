@@ -1,5 +1,5 @@
 ## Introduction :
-Ce projet est utilisé dans le cadre de ma formation Master MAALSI au CESI dont le but est d'introduire l'architecture dite de microservices, le tout fonctionnant dans gràce à des images customs, avec des containers lancés gràce à un docker-compose.yml.
+Ce projet est utilisé dans le cadre de ma formation Master MAALSI au CESI dont le but est d'introduire l'architecture dite de microservices, le tout fonctionnant gràce à des images customs, avec des containers lancés gràce à un docker-compose.yml.
 
 
 ## Liste des commandes utiles :
