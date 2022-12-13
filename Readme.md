@@ -19,6 +19,7 @@ Ce projet est utilisé dans le cadre de ma formation Master MAALSI au CESI dont 
 
 #### Installation rapide :
 Dans un terminal, exécuter la commande à la racine du projet :
+
     - .\build.cmd
 
 #### Installation pas à pas : build les 3 images des api, se placer à la racine du projet et lancer les 3 commandes suivantes  (bien garder le point à la fin des commandes) :
@@ -27,7 +28,7 @@ Dans un terminal, exécuter la commande à la racine du projet :
     - docker build -t movies -f movies/Dockerfile .
 
 
-#### Utiliser le docker-compose pour créer les 3 containers et les connecter entre eux  :
+##### Utiliser le docker-compose pour créer les 3 containers et les connecter entre eux  :
     - docker-compose up
 
 #### L'API est désormais accessible :
