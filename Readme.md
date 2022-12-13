@@ -1,4 +1,8 @@
-## Liste des commandes :
+## Introduction :
+Ce projet est utilisé dans le cadre de ma formation Master MAALSI au CESI dont le but est d'introduire l'architecture dite de microservices, le tout fonctionnant dans gràce à des images customs, avec des containers lancés gràce à un docker-compose.yml.
+
+
+## Liste des commandes utiles :
 - npm install ***
 - nodemon dist/index.js
 - npm init --yes
@@ -23,6 +27,6 @@
     - docker-compose up
 
 #### L'API est désormais accessible :
-    - possibilité d'utiliser Postman (en Get) ou directement le navigateur aux URL :
-        - http://localhost:3000/movies
-        - http://localhost:3000/movies/20
+Possibilité d'utiliser Postman (en Get) ou directement le navigateur aux URL :
+    - http://localhost:3000/movies
+    - http://localhost:3000/movies/20
