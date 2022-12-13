@@ -17,7 +17,11 @@ Ce projet est utilisé dans le cadre de ma formation Master MAALSI au CESI dont 
 #### Si besoin, installer les nodes_modules :
     - npm i
 
-#### build les 3 images des api, se placer à la racine du projet et lancer les 3 commandes suivantes  (bien garder le point à la fin des commandes) :
+#### Installation rapide :
+Dans un terminal, exécuter la commande à la racine du projet :
+    - .\build.cmd
+
+#### Installation pas à pas : build les 3 images des api, se placer à la racine du projet et lancer les 3 commandes suivantes  (bien garder le point à la fin des commandes) :
     - docker build -t gateway -f gateway/Dockerfile .
     - docker build -t catalog -f catalog/Dockerfile .
     - docker build -t movies -f movies/Dockerfile .

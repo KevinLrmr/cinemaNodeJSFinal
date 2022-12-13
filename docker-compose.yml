@@ -1,6 +1,6 @@
-version: "1.0"
+version: "3.9"
+name: Cinema
 services:
-
   service_gateway:
     image: gateway
     container_name : api-gateway_container
