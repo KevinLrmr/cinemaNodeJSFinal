@@ -1,0 +1,22 @@
+{
+  "name": "cinemanodejsfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "concurrently \"npx tsc --watch\" \"nodemon dist/gateway/index.js\" \"nodemon dist/catalog/index.js\" \"nodemon dist/movies/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "axios": "^1.1.3",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
+  }
+}

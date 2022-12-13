@@ -1,0 +1,26 @@
+version: "1.0"
+services:
+
+  service_gateway:
+    image: gateway
+    container_name : api-gateway_container
+    env_file:
+      - .env
+    ports:
+      - 3000:3000
+
+  service_catalog:
+    image: catalog
+    container_name : api-catalog_container
+    env_file:
+      - .env
+    ports:
+      - 3001:3001
+
+  service_movies:
+    image: movies
+    container_name : api-movies_container
+    env_file:
+      - .env
+    ports:
+      - 3002:3002
